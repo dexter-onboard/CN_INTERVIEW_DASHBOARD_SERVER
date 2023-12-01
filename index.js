@@ -1,5 +1,6 @@
 const express = require('express')
 const cors = require('cors')
+require('dotenv').config()
 const mongoDB = require('./config/mongoose')
 const Admin = require('./model/admin')
 const app = express()
